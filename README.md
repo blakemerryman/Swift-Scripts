@@ -77,7 +77,7 @@ Once you get to this point, you can now start developing your own Swift Scripts 
 
     Now you can call your script from anywhere with `$ coolScript` instead of `$ /path/to/file/.../SomeCoolScript.swift`
 
-- Here's a list of Apple Frameworks to keep in mind when developing your scripts:
+- Here's a list of Apple Frameworks & Classes to keep in mind when developing your scripts:
     + [NSFileHandle][] - handling dynamic user input from the console
     + [NSFileManager][] - handling any and all types of file system interaction
     + [NSTask][] & [NSPipe][] - interacting with terminal commands and creating pipelines from within your script
