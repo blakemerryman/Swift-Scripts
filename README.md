@@ -1,7 +1,7 @@
 Swift-Scripts
 =============
 
-This is a quick primer on using Swift for scripting. For more information, see the [wiki](https://github.com/blakemerryman/Swift-Scripts/wiki).
+This is a quick primer on using Swift for scripting. This repository also contains a number of example scripts. For more information, see the [wiki](https://github.com/blakemerryman/Swift-Scripts/wiki). 
 
 > If you have suggestions or improvements, feel free to submit a pull request or contact me on Twitter [@blakemerryman](https://twitter.com/blakemerryman) or email me at <blake.merryman@gmail.com>
 
