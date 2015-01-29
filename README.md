@@ -62,7 +62,7 @@ Once you get to this point, you can now start developing your own Swift Scripts 
 
 [alamofire]: https://github.com/Alamofire/Alamofire
 [bmparse]:   https://github.com/blakemerryman/BMParse/tree/master
-[alot]:      https://github.com/search?utf8=✓&q=clparse&type=Repositories&ref=searchresults
+[a-lot]:     https://github.com/search?utf8=✓&q=clparse&type=Repositories&ref=searchresults
 
 
 
