@@ -58,11 +58,11 @@ To make any Swift file into a script, all it takes are four basic steps:
 --------------------------------------------------
 Once you get to this point, you can now start developing your own Swift Scripts and the possibilities are basically endless. With a simple `import ...` statement, you have the full power of the various Mac SDK libraries such as Foundation and AppKit. With a slight modification to your script's shebang line, you can even import third party frameworks like [AlamoFire][] to handle networking or my own [BMParse][] to handle your script's commandline option flags.
 
-> When I originally present *Scripting with Swift* at CocoaHeads of Nashville, BMParse was presented under the title CLParse. I later found out that there are [a lot][] of "CLParse" on Github and subsequently changed the name.
+> When I originally present *Scripting with Swift* at CocoaHeads of Nashville, BMParse was presented under the title CLParse. I later found out that there are [a lot][alot] of "CLParse" on Github and subsequently changed the name.
 
 [alamofire]: https://github.com/Alamofire/Alamofire
 [bmparse]:   https://github.com/blakemerryman/BMParse/tree/master
-[a-lot]:     https://github.com/search?utf8=✓&q=clparse&type=Repositories&ref=searchresults
+[alot]:      https://github.com/search?utf8=✓&q=clparse&type=Repositories&ref=searchresults
 
 
 
