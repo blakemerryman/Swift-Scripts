@@ -1,4 +1,3 @@
-
 let groupName  = "CocoaHeads"
 let attendence = 10
 
