@@ -19,7 +19,7 @@ DerivedData
 
 # My Additions
 *.wiki
-*.ideas
+_ideas
 
 # CocoaPods
 #
