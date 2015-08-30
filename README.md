@@ -1,7 +1,7 @@
 Swift-Scripts
 =============
 
-This is a quick primer on using Swift for scripting. This repository also contains a number of example scripts. For more information, see the [wiki](https://github.com/blakemerryman/Swift-Scripts/wiki). 
+This is a quick primer on using Swift for scripting. This repository also contains a number of example scripts. For more information, see the [wiki](https://github.com/blakemerryman/Swift-Scripts/wiki).
 
 > If you have suggestions or improvements, feel free to submit a pull request or contact me on Twitter [@blakemerryman](https://twitter.com/blakemerryman) or email me at <blake.merryman@gmail.com>
 
@@ -27,8 +27,8 @@ To make any Swift file into a script, all it takes are four basic steps:
     This is what invokes the Swift environment and passes our script to it for execution.
 
 2. **Make Executable**
-    Next, we need to make our script executable so that we can call it directly by filename. Simple change the file permissions with:    
-    `chmod +x /path/to/file/.../SomeCoolScript.swift` 
+    Next, we need to make our script executable so that we can call it directly by filename. Simple change the file permissions with:
+    `chmod +x /path/to/file/.../SomeCoolScript.swift`
 
 3. **Run the Script**
     Now, we can run the script by directly invoking the filename (along with the path to the file):  
@@ -41,7 +41,7 @@ To make any Swift file into a script, all it takes are four basic steps:
     `$ ./SomeCoolScript.swift firstArg secondArg thirdArg`
 
     This is what you that looks like in the Swift script:  
-    
+
     ```swift
     let arguments: [Strings] = Process.arguments
     // [ "./SomeCoolScript.swift", "firstArg", "secondArg", "thirdArg" ]
@@ -68,7 +68,7 @@ Once you get to this point, you can now start developing your own Swift Scripts 
 
 ## Tips & Tricks
 
-- *Third Party Frameworks*
+- *Third Party Frameworks*  
     Change your shebang line to be `#!/usr/bin/env xcrun swift -F /Library/Frameworks` to enable your script to search the Frameworks directory for any module-enabled, third-party frameworks you have stored there.
 
 - *Alias Scripts for Convenient Access*  
@@ -84,7 +84,7 @@ Once you get to this point, you can now start developing your own Swift Scripts 
     + [JavaScriptCore][] - calling JavaScript from within your script
     + [NSAppleScript][] - calling AppleScript from within your script
 
-[nsfilehandle]:   https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSFileHandle_Class/index.html    
+[nsfilehandle]:   https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSFileHandle_Class/index.html
 [nsfilemanager]:  https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSFileManager_Class/index.html
 [nstask]:         https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSTask_Class/
 [nspipe]:         https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSPipe_Class/
@@ -97,8 +97,4 @@ Once you get to this point, you can now start developing your own Swift Scripts 
 
 - All code execution starts at top level code.
 - Compilation of a script file is top-down, so you can't use something before you have defined it in the script file.
-- Third party frameworks must have modules enabled or they will not work with Swift. 
-
-
-
-
+- Third party frameworks must have modules enabled or they will not work with Swift.

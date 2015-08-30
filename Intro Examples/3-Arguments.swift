@@ -1,7 +1,7 @@
 #!/usr/bin/env xcrun swift
 
-for (index, argument) in enumerate(Process.arguments) {
-    println("\(index) - \(argument)")
+for (index, argument) in Process.arguments.enumerate() {
+    print("\(index) - \(argument)")
 }
 
 // Notes:
