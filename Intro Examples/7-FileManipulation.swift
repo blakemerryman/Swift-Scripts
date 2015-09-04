@@ -2,7 +2,7 @@
 
 import Foundation
 
-let ddFolderPath = NSHomeDirectoryForUser(NSUserName())! + "/Library/Developer/Xcode/DerivedData")
+let ddFolderPath = NSHomeDirectoryForUser(NSUserName())! + "/Library/Developer/Xcode/DerivedData"
 
 let fileManager = NSFileManager.defaultManager()
 
