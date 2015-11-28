@@ -1,6 +1,8 @@
 Swift-Scripts
 =============
 
+> This project started as a [Nashville CocoaHeads](http://cocoaheads.org/us/NashvilleTennessee/index.html) presentation. You can view that presentation on [Youtube](https://www.youtube.com/watch?v=7dkyTOC6Ie8).
+
 This is a quick primer on using Swift for scripting. This repository also contains a number of example scripts. For more information, see the [wiki](https://github.com/blakemerryman/Swift-Scripts/wiki).
 
 > If you have suggestions or improvements, feel free to submit a pull request or contact me on Twitter [@blakemerryman](https://twitter.com/blakemerryman) or email me at <blake.merryman@gmail.com>
